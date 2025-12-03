@@ -1,7 +1,8 @@
 import { useEffect, useState, useMemo } from "react";
 import { toast } from "react-simple-toasts";
 import { TaskColumn } from "./TaskColumn";
-import { Task, EditTaskModal } from "./EditTaskModal";
+import { EditTaskModal } from "./EditTaskModel";
+import type { Task } from './EditTaskModel';
 
 // Definições de API e Tipos
 const USER_ID = "mateus-frantz-schmidt";
